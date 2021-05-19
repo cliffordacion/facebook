@@ -1,6 +1,6 @@
 <?php
 
-namespace cliffordacion\facebook\oembed;
+namespace Cliffordacion\Facebook;
 
 use Facebook\Facebook;
 use Facebook\Facebook\Exceptions as FbExceptions;
