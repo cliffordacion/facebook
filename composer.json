@@ -1,0 +1,18 @@
+{
+    "name": "cliffdacion/facebook",
+    "description": "Facebook packages to make life easier",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Clifford Dacion",
+            "email": "cliffordacion@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"cliffdacion\\facebook\\": "src/"}
+    },
+    "require": {
+        "facebook/graph-sdk": "^5.7"
+    }
+}
