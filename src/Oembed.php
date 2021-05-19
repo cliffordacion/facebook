@@ -30,7 +30,7 @@ class Oembed
         $params = http_build_query($params);
 
             // Returns a `FacebookFacebookResponse` object
-        $response = $fb->get(
+        $response = $this->fb->get(
             '/oembed_page?' . $params,
             $accessToken
         );

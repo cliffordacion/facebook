@@ -13,6 +13,7 @@
         "psr-4": {"Cliffordacion\\Facebook\\": "src/"}
     },
     "require": {
+        "php": "^7.4|^8.0",
         "facebook/graph-sdk": "^5.7"
     }
 }
