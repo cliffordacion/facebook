@@ -38,5 +38,7 @@ class Oembed
         $graphNode = $response->getGraphNode();
 
         $html = $graphNode->getField('html');
+
+        return $html;
     }
 }
