@@ -1,5 +1,5 @@
 {
-    "name": "cliffdacion/facebook",
+    "name": "cliffordacion/facebook",
     "description": "Facebook packages to make life easier",
     "license": "MIT",
     "type": "library",
@@ -10,7 +10,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"cliffdacion\\facebook\\": "src/"}
+        "psr-4": {"cliffordacion\\facebook\\": "src/"}
     },
     "require": {
         "facebook/graph-sdk": "^5.7"
